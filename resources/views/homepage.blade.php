@@ -10,7 +10,7 @@
     <title>Education Meeting HTML5 Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{asset('Design/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('Design/trapsboot/css/bootstrap.min.css')}}" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
@@ -769,7 +769,7 @@ https://templatemo.com/tm-569-edu-meeting
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
     <script src="{{asset('Design/jquery/jquery.min.js')}}"></script>
-    <script src="{{asset('Design/bootstrap/js/bootstrap.bundle.min.js')}}}"></script>
+    <script src="{{asset('Design/trapsboot/js/bootstrap.bundle.min.js')}}}"></script>
 
     <script src="{{asset('Design/library_design/js/isotope.min.js')}}"></script>
     <script src="{{asset('Design/library_design/js/owl-carousel.js')}}"></script>
