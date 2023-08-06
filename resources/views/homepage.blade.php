@@ -10,14 +10,14 @@
     <title>Education Meeting HTML5 Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="Design/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{asset('Design/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="Design/library_design/css/fontawesome.css">
-    <link rel="stylesheet" href="Design/library_design/css/templatemo-edu-meeting.css">
-    <link rel="stylesheet" href="Design/library_design/css/owl.css">
-    <link rel="stylesheet" href="Design/library_design/css/lightbox.css">
+    <link rel="stylesheet" href="{{asset('Design/library_design/css/fontawesome.css')}}">
+    <link rel="stylesheet" href="{{asset('Design/library_design/css/templatemo-edu-meeting.css')}}">
+    <link rel="stylesheet" href="{{asset('Design/library_design/css/owl.css')}}">
+    <link rel="stylesheet" href="{{asset('Design/library_design/css/lightbox.css')}}">
 <!--
 
 TemplateMo 569 Edu Meeting
@@ -92,7 +92,7 @@ https://templatemo.com/tm-569-edu-meeting
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
-          <source src="Design/library_design/images/course-video.mp4" type="video/mp4" />
+          <source src="{{asset('Design/library_design/images/course-video.mp4')}}" type="video/mp4" />
       </video>
 
       <div class="video-overlay header-text">
@@ -122,7 +122,7 @@ https://templatemo.com/tm-569-edu-meeting
           
             <div class="item">
               <div class="icon">
-                <img src="Design/library_design/images/service-icon-01.png" alt="">
+                <img src="{{asset('Design/library_design/images/service-icon-01.png')}}" alt="">
               </div>
               <div class="down-content">
                 <h4>Best Education</h4>
@@ -132,7 +132,7 @@ https://templatemo.com/tm-569-edu-meeting
             
             <div class="item">
               <div class="icon">
-                <img src="Design/library_design/images/service-icon-02.png" alt="">
+                <img src="{{asset('Design/library_design/images/service-icon-02.png')}}" alt="">
               </div>
               <div class="down-content">
                 <h4>Best Teachers</h4>
@@ -142,7 +142,7 @@ https://templatemo.com/tm-569-edu-meeting
             
             <div class="item">
               <div class="icon">
-                <img src="Design/library_design/images/service-icon-03.png" alt="">
+                <img src="{{asset('Design/library_design/images/service-icon-03.png')}}" alt="">
               </div>
               <div class="down-content">
                 <h4>Best Students</h4>
@@ -152,7 +152,7 @@ https://templatemo.com/tm-569-edu-meeting
             
             <div class="item">
               <div class="icon">
-                <img src="Design/library_design/images/service-icon-02.png" alt="">
+                <img src="{{asset('Design/library_design/images/service-icon-02.png')}}" alt="">
               </div>
               <div class="down-content">
                 <h4>Online Meeting</h4>
@@ -162,7 +162,7 @@ https://templatemo.com/tm-569-edu-meeting
             
             <div class="item">
               <div class="icon">
-                <img src="Design/library_design/images/service-icon-03.png" alt="">
+                <img src="{{asset('Design/library_design/images/service-icon-03.png')}}" alt="">
               </div>
               <div class="down-content">
                 <h4>Best Networking</h4>
@@ -207,7 +207,7 @@ https://templatemo.com/tm-569-edu-meeting
                   <div class="price">
                     <span>$22.00</span>
                   </div>
-                  <a href="meeting-details.html"><img src="Design/library_design/images/meeting-01.jpg" alt="New Lecturer Meeting"></a>
+                  <a href="meeting-details.html"><img src="{{asset('Design/library_design/images/meeting-01.jpg')}}" alt="New Lecturer Meeting"></a>
                 </div>
                 <div class="down-content">
                   <div class="date">
@@ -768,16 +768,16 @@ https://templatemo.com/tm-569-edu-meeting
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-    <script src="Design/jquery/jquery.min.js"></script>
-    <script src="Design/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{asset('Design/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset('Design/bootstrap/js/bootstrap.bundle.min.js')}}}"></script>
 
-    <script src="Design/library_design/js/isotope.min.js"></script>
-    <script src="Design/library_design/js/owl-carousel.js"></script>
-    <script src="Design/library_design/js/lightbox.js"></script>
-    <script src="Design/library_design/js/tabs.js"></script>
-    <script src="Design/library_design/js/video.js"></script>
-    <script src="Design/library_design/js/slick-slider.js"></script>
-    <script src="Design/library_design/js/custom.js"></script>
+    <script src="{{asset('Design/library_design/js/isotope.min.js')}}"></script>
+    <script src="{{asset('Design/library_design/js/owl-carousel.js')}}"></script>
+    <script src="{{asset('Design/library_design/js/lightbox.js')}}"></script>
+    <script src="{{asset('Design/library_design/js/tabs.js')}}"></script>
+    <script src="{{asset('Design/library_design/js/video.js')}}"></script>
+    <script src="{{asset('Design/library_design/js/slick-slider.js')}}"></script>
+    <script src="{{asset('Design/library_design/js/custom.js')}}"></script>
     <script>
         //according to loftblog tut
         $('.nav li:first').addClass('active');
